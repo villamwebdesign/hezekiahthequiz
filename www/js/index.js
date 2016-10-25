@@ -47,3 +47,6 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+$('.app').click(function(){
+    $(this).fadeOut(1000).text("Let's start playing.");
+});

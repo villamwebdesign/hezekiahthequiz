@@ -111,3 +111,4 @@
     <allow-intent href="itms-apps:*"/>
   </platform>
 </widget>
+<gap:plugin name="org.apache.cordova.media" />

@@ -47,3 +47,13 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+$('.app').click(function(){
+    $(this).fadeOut(1000).text("Let's start playing.");
+    var a = function(){$("#start").fadeIn(1000);
+        };
+   if(window.confirm("Are you ready to play?")){setTimeout(a,1000);}
+    else{ setTimeout(a,1000);
+        $("#start").text("You are not ready to play. Bye");
+        };
+});
+$("#start").click(function(){location.reload();});
